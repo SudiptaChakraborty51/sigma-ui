@@ -1,3 +1,16 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css";
+
 .App {
   text-align: center;
+}
+
+:root {
+  --primary-color: #42a5f5;
+  --primary-dark: #1976d2;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --grey-color: #9ca3af;
+  --lightgrey-color: #e5e7eb;
+  --red-color: red;
+  --offwhite-color: #faf9f9;
 }
