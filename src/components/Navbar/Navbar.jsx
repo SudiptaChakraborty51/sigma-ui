@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
       <div className="right-nav">
         <a href="/">Home</a>
-        <a href="/documentation">Documentation</a>
+        <a href="/documentation/installation">Documentation</a>
         <a
           href="https://github.com/SudiptaChakraborty51/sigma-ui"
           target="_blank"

@@ -1,0 +1,30 @@
+.sidebar {
+  padding: 10px 30px;
+  overflow-y: scroll;
+  width: 10%;
+  height: calc(100vh - 70px);
+  position: fixed;
+  background-color: var(--white-color);
+}
+
+.sidebar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+  margin-left: -40px;
+}
+
+.sidebar ul .component-item {
+  color: var(--black-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sidebar ul .component-item:hover {
+  color: var(--primary-dark);
+}

@@ -4,7 +4,6 @@ import heroImage from "../../assets/heroImage.svg";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-  
   const navigate = useNavigate();
 
   return (
@@ -19,11 +18,11 @@ const Home = () => {
             <span>Sigma UI</span>
           </h1>
           <p>
-            <span>Sigma UI</span> is a lightweight, user friendly, highly customizable utility based{" "}
-            <span>component library</span> so every developer can make a unique
-            web page.
+            <span>Sigma UI</span> is a lightweight, user friendly, highly
+            customizable utility based <span>component library</span> so every
+            developer can make a unique web page.
           </p>
-          <button onClick={() => navigate("/documentation")}>
+          <button onClick={() => navigate("/documentation/installation")}>
             <span>Get Started</span>
           </button>
         </div>
