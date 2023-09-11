@@ -1,0 +1,53 @@
+.badge-main {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 15rem;
+}
+
+.badge-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 2rem;
+}
+
+.badge-container p span {
+  color: var(--primary-dark);
+}
+
+.badge-showcase {
+  border: 2px solid var(--lightgrey-color);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 50%;
+  margin: 1rem 0;
+}
+
+.badge {
+  font-size: 2rem;
+  position: relative;
+  width: max-content;
+}
+
+.badge-icon {
+  align-items: center;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  color: var(--white-color);
+  display: inline-flex;
+  height: 0.8rem;
+  width: 0.8rem;
+  justify-content: center;
+  padding: 5px;
+  position: absolute;
+  right: -15px;
+  bottom: 1.8rem;
+}
+
+.badge-number {
+  font-size: 0.7rem;
+}
