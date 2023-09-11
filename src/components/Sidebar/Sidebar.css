@@ -1,7 +1,6 @@
 .sidebar {
   padding: 10px 30px;
   overflow-y: scroll;
-  width: 10%;
   height: calc(100vh - 70px);
   position: fixed;
   background-color: var(--white-color);
