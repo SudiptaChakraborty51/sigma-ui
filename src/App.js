@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
 import Documentation from "./pages/Documentation/Documentation";
 import Alert from "./pages/Alert/Alert";
+import Avatar from "./pages/Avatar/Avatar";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/documentation/installation" element={<Documentation />} />
         <Route path="/alert" element={<Alert />} />
+        <Route path="/avatar" element={<Avatar />} />
       </Routes>
     </div>
   );
