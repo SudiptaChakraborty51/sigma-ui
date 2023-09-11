@@ -1,12 +1,12 @@
 .alert-main {
   display: grid;
   grid-template-columns: auto 1fr;
+  gap: 15rem;
 }
 
 .alert-container {
   display: flex;
   flex-direction: column;
-  margin-left: 20%;
   text-align: left;
   margin-right: 2rem;
 }
@@ -26,13 +26,6 @@
   gap: 1rem;
   width: 50%;
   margin: 1rem 0;
-}
-
-.alert-container {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20%;
-  text-align: left;
 }
 
 .alert {
