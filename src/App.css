@@ -12,6 +12,13 @@
   --black-color: #000000;
   --grey-color: #9ca3af;
   --lightgrey-color: #e5e7eb;
-  --red-color: red;
   --offwhite-color: #faf9f9;
+  --error-bg-color: #fad7d2;
+  --error-color: #e01006;
+  --info-bg-color: #afcdf5;
+  --info-color: #2236b5;
+  --success-bg-color: #92fdbf;
+  --success-color: #157a00;
+  --warning-bg-color: #fcea88;
+  --warning-color: #836f00;
 }
