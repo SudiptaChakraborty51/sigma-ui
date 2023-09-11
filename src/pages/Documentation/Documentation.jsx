@@ -17,10 +17,10 @@ const Documentation = () => {
         </p>
         <code>
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=867&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=6px&ln=false&fl=1&fm=Source+Code+Pro&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520type%253D%2522text%252Fcss%2522%2520href%253D%2522https%253A%252F%252Fsigma-ui-tau.vercel.app%252Fsrc%252FApp.css%2522%253E%253C%252Flink%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=867&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=6px&ln=false&fl=1&fm=Source+Code+Pro&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520type%253D%2522text%252Fcss%2522%2520href%253D%2522https%253A%252F%252Fsigma-ui-tau.vercel.app%252Fsrc%252FApp.css%2522%253E%253C%252Flink%253E%250A%253Clink%250A%2520%2520rel%253D%2522stylesheet%2522%250A%2520%2520href%253D%2522https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Ffont-awesome%252F6.4.2%252Fcss%252Fall.min.css%2522%250A%252F%253E"
             style={{
               width: "867px",
-              height: "100px",
+              height: "180px",
               border: 0,
               transform: "scale(1)",
               overflow: "hidden",
@@ -36,10 +36,10 @@ const Documentation = () => {
         </p>
         <code>
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=css&width=867&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=6px&ln=false&fl=1&fm=Source+Code+Pro&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2540import%2520url%28%2522https%253A%252F%252Fsigma-ui-tau.vercel.app%252Fsrc%252FApp.css%2522%29%253B"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=css&width=867&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=6px&ln=false&fl=1&fm=Source+Code+Pro&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%2522https%253A%252F%252Fsigma-ui-tau.vercel.app%252Fsrc%252FApp.css%2522%29%253B%250A%2540import%2520%2522https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Ffont-awesome%252F6.4.2%252Fcss%252Fall.min.css%2522%253B"
             style={{
               width: "867px",
-              height: "100px",
+              height: "120px",
               border: 0,
               transform: "scale(1)",
               overflow: "hidden",
