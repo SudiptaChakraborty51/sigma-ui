@@ -33,7 +33,7 @@ const Sidebar = () => {
         </li>
         <li>
           <NavLink
-            to="/alert"
+            to="/components/alert"
             className="component-item"
             style={getActiveStyle}
           >
