@@ -2,11 +2,11 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
-import Badge from "./pages/Badge/Badge";
 import Components from "./pages/Components/Components";
 import AvatarDoc from "./documentation/AvatarDoc/AvatarDoc";
 import Installation from "./documentation/Installation/Installation";
 import AlertDoc from "./documentation/AlertDoc/AlertDoc";
+import BadgeDoc from "./documentation/BadgeDoc/BadgeDoc";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path="/installation" element={<Installation />} />
         <Route path="/components/avatar" element={<AvatarDoc />} />
         <Route path="/components/alert" element={<AlertDoc />} />
-        <Route path="/badge" element={<Badge />} />
+        <Route path="/components/badge" element={<BadgeDoc />} />
       </Routes>
     </div>
   );

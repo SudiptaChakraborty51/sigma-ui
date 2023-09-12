@@ -42,7 +42,7 @@ const Sidebar = () => {
         </li>
         <li>
           <NavLink
-            to="/badge"
+            to="/components/badge"
             className="component-item"
             style={getActiveStyle}
           >
