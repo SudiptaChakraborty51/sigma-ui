@@ -3,7 +3,6 @@ import "./Sidebar.css";
 import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
-    
   const getActiveStyle = ({ isActive }) => ({
     color: isActive && "var(--primary-dark)",
     backgroundColor: isActive && "var(--secondary-color)",
@@ -16,7 +15,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <NavLink
-            to="/documentation/installation"
+            to="/installation"
             className="component-item"
             style={getActiveStyle}
           >
@@ -25,7 +24,7 @@ const Sidebar = () => {
         </li>
         <li>
           <NavLink
-            to="/avatar"
+            to="/components/avatar"
             className="component-item"
             style={getActiveStyle}
           >

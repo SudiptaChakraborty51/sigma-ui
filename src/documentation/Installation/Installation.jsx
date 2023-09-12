@@ -1,10 +1,10 @@
 import React from "react";
-import "./Documentation.css";
+import "./Installation.css";
 import Sidebar from "../../components/Sidebar/Sidebar";
 
-const Documentation = () => {
+const Installation = () => {
   return (
-    <div className="documentation">
+    <div className="installation">
       <div className="sidebar-container">
         <Sidebar />
       </div>
@@ -53,4 +53,4 @@ const Documentation = () => {
   );
 };
 
-export default Documentation;
+export default Installation;

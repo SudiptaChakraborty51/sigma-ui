@@ -4,7 +4,6 @@ import logo from "../../assets/sigma.png";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
-
   const navigate = useNavigate();
 
   return (
@@ -15,7 +14,7 @@ const Navbar = () => {
       </div>
       <div className="right-nav">
         <a href="/">Home</a>
-        <a href="/documentation/installation">Documentation</a>
+        <a href="/components">Components</a>
         <a
           href="https://github.com/SudiptaChakraborty51/sigma-ui"
           target="_blank"
