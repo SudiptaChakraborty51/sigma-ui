@@ -22,9 +22,14 @@ const Home = () => {
             customizable utility based <span>component library</span> so every
             developer can make a unique web page.
           </p>
-          <button onClick={() => navigate("/components")}>
-            <span>Get Started</span>
-          </button>
+          <div className="home-btns">
+            <button onClick={() => navigate("/components")}>
+              <span>Get Started</span>
+            </button>
+            <button onClick={() => navigate("/installation")}>
+              <span>Installation</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>

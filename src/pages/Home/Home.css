@@ -74,6 +74,12 @@
   right: 0;
 }
 
+.home-btns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
 @media (max-width: 600px) {
     .home-container {
         flex-direction: column;
