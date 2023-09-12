@@ -1,6 +1,5 @@
 import React from "react";
 import Sidebar from "../../components/Sidebar/Sidebar";
-import avatar from "../../assets/avatar.jpg";
 import {
   ImageAvatar,
   LetterAvatar,
@@ -42,18 +41,33 @@ const AvatarDoc = () => {
           </p>
         </div>
         <div class="avatar-showcase">
-          <ImageAvatar srcImg={avatar} altText="avatar1" size="lg" />
-          <ImageAvatar srcImg={avatar} altText="avatar2" size="md" />
-          <ImageAvatar srcImg={avatar} altText="avatar3" size="sm" />
-          <ImageAvatar srcImg={avatar} altText="avatar4" size="xs" />
+          <ImageAvatar
+            srcImg="https://res.cloudinary.com/dqlasoiaw/image/upload/v1686659986/tech-social/overjoyed-pretty-asian-woman-look-at-camera-with-sincere-laughter_b9hnrt.jpg"
+            altText="avatar1"
+            size="lg"
+          />
+          <ImageAvatar
+            srcImg="https://res.cloudinary.com/dqlasoiaw/image/upload/v1686659911/tech-social/man3_a5om95.jpg"
+            altText="avatar2"
+            size="md"
+          />
+          <ImageAvatar
+            srcImg="https://res.cloudinary.com/dqlasoiaw/image/upload/v1687677688/tech-social/360_F_279669366_Lk12QalYQKMczLEa4ySjhaLtx1M2u7e6_gu0tvw.jpg"
+            altText="avatar3"
+            size="sm"
+          />
+          <ImageAvatar
+            srcImg="https://res.cloudinary.com/dqlasoiaw/image/upload/v1687869079/tech-social/pexels-photo-220453_xrctn8.jpg"
+            altText="avatar4"
+            size="xs"
+          />
         </div>
-
         <code>
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=867&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=6px&ln=false&fl=1&fm=Source+Code+Pro&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253CImageAvatar%2520srcImg%253D%257Bavatar%257D%2520altText%253D%2522avatar1%2522%2520size%253D%2522lg%2522%2520%252F%253E%250A%253CImageAvatar%2520srcImg%253D%257Bavatar%257D%2520altText%253D%2522avatar2%2522%2520size%253D%2522md%2522%2520%252F%253E%250A%253CImageAvatar%2520srcImg%253D%257Bavatar%257D%2520altText%253D%2522avatar3%2522%2520size%253D%2522sm%2522%2520%252F%253E%250A%253CImageAvatar%2520srcImg%253D%257Bavatar%257D%2520altText%253D%2522avatar4%2522%2520size%253D%2522xs%2522%2520%252F%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=867&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=6px&ln=false&fl=1&fm=Source+Code+Pro&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253CImageAvatar%250A%2520%2520srcImg%253D%2522https%253A%252F%252Fres.cloudinary.com%252Fdqlasoiaw%252Fimage%252Fupload%252Fv1686659986%252Ftech-social%252Foverjoyed-pretty-asian-woman-look-at-camera-with-sincere-laughter_b9hnrt.jpg%2522%250A%2520%2520altText%253D%2522avatar1%2522%250A%2520%2520size%253D%2522lg%2522%250A%252F%253E%250A%253CImageAvatar%250A%2520%2520srcImg%253D%2522https%253A%252F%252Fres.cloudinary.com%252Fdqlasoiaw%252Fimage%252Fupload%252Fv1686659911%252Ftech-social%252Fman3_a5om95.jpg%2522%250A%2520%2520altText%253D%2522avatar2%2522%250A%2520%2520size%253D%2522md%2522%250A%252F%253E%250A%253CImageAvatar%250A%2520%2520srcImg%253D%2522https%253A%252F%252Fres.cloudinary.com%252Fdqlasoiaw%252Fimage%252Fupload%252Fv1687677688%252Ftech-social%252F360_F_279669366_Lk12QalYQKMczLEa4ySjhaLtx1M2u7e6_gu0tvw.jpg%2522%250A%2520%2520altText%253D%2522avatar3%2522%250A%2520%2520size%253D%2522sm%2522%250A%252F%253E%250A%253CImageAvatar%250A%2520%2520srcImg%253D%2522https%253A%252F%252Fres.cloudinary.com%252Fdqlasoiaw%252Fimage%252Fupload%252Fv1687869079%252Ftech-social%252Fpexels-photo-220453_xrctn8.jpg%2522%250A%2520%2520altText%253D%2522avatar4%2522%250A%2520%2520size%253D%2522xs%2522%250A%252F%253E"
             style={{
               width: "867px",
-              height: "160px",
+              height: "540px",
               border: 0,
               transform: "scale(1)",
               overflow: "hidden",
