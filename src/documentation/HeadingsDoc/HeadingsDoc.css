@@ -1,0 +1,28 @@
+.headings-main {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 15rem;
+}
+
+.headings-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 2rem;
+}
+
+.headings-container p span {
+  color: var(--primary-dark);
+}
+
+.headings-showcase {
+  border: 2px solid var(--lightgrey-color);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 1rem 0;
+}

@@ -65,7 +65,7 @@ const Sidebar = () => {
         </li>
         <li>
           <NavLink
-            to="/headings"
+            to="/components/headings"
             className="component-item"
             style={getActiveStyle}
           >
