@@ -19,9 +19,7 @@ const AlertDoc = () => {
         <p>
           Alerts are available in 4 variants success alert, info alert, warning
           alert, error alert. To use this alert in your code, just include
-          classname <span>alert</span>. And also as per the requirement you can
-          also add <span>alert-success</span>, <span>alert-info</span>,{" "}
-          <span>alert-warning</span>, <span>alert-error</span> as class names.
+          classname <span>alert</span>.
           You have to add <span>type</span> and <span>text</span> props to the{" "}
           <span>Alert</span> component. You can copy the html code from below
           code snippet.
