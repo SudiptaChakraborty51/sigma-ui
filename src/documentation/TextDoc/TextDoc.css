@@ -1,0 +1,28 @@
+.text-main {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 15rem;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 2rem;
+}
+
+.text-container p span {
+  color: var(--primary-dark);
+}
+
+.text-showcase {
+  border: 2px solid var(--lightgrey-color);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  margin: 1rem 0;
+}

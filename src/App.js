@@ -9,6 +9,7 @@ import AlertDoc from "./documentation/AlertDoc/AlertDoc";
 import BadgeDoc from "./documentation/BadgeDoc/BadgeDoc";
 import HeadingsDoc from "./documentation/HeadingsDoc/HeadingsDoc";
 import ButtonDoc from "./documentation/ButtonDoc/ButtonDoc";
+import TextDoc from "./documentation/TextDoc/TextDoc";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/components/badge" element={<BadgeDoc />} />
         <Route path="/components/button" element={<ButtonDoc />} />
         <Route path="/components/headings" element={<HeadingsDoc />} />
+        <Route path="/components/text" element={<TextDoc />} />
       </Routes>
     </div>
   );

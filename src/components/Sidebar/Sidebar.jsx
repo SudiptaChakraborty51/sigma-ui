@@ -73,7 +73,11 @@ const Sidebar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/Text" className="component-item" style={getActiveStyle}>
+          <NavLink
+            to="/components/text"
+            className="component-item"
+            style={getActiveStyle}
+          >
             Text
           </NavLink>
         </li>
