@@ -1,0 +1,28 @@
+.button-main {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 15rem;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 2rem;
+}
+
+.button-container p span {
+  color: var(--primary-dark);
+}
+
+.button-showcase {
+  border: 2px solid var(--lightgrey-color);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 50%;
+  margin: 1rem 0;
+}

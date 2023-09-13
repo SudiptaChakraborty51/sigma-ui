@@ -8,6 +8,7 @@ import Installation from "./documentation/Installation/Installation";
 import AlertDoc from "./documentation/AlertDoc/AlertDoc";
 import BadgeDoc from "./documentation/BadgeDoc/BadgeDoc";
 import HeadingsDoc from "./documentation/HeadingsDoc/HeadingsDoc";
+import ButtonDoc from "./documentation/ButtonDoc/ButtonDoc";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/components/avatar" element={<AvatarDoc />} />
         <Route path="/components/alert" element={<AlertDoc />} />
         <Route path="/components/badge" element={<BadgeDoc />} />
+        <Route path="/components/button" element={<ButtonDoc />} />
         <Route path="/components/headings" element={<HeadingsDoc />} />
       </Routes>
     </div>

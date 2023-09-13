@@ -1,0 +1,55 @@
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.link-btn {
+  text-decoration: underline;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.link-btn:hover {
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  color: var(--white-color);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.icon-btn:hover {
+  opacity: 0.6;
+  transition: all 0.5s ease-in-out;
+}
+
+.floating-btn {
+  padding: 1rem;
+  display: inline-flex;
+  border: none;
+  border-radius: 50%;
+  color: var(--white-color);
+  font-size: 1.25rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+.floating-btn:hover {
+  opacity: 0.6;
+  transition: all 0.5s ease-in-out;
+}
