@@ -11,6 +11,7 @@ import HeadingsDoc from "./documentation/HeadingsDoc/HeadingsDoc";
 import ButtonDoc from "./documentation/ButtonDoc/ButtonDoc";
 import TextDoc from "./documentation/TextDoc/TextDoc";
 import ImageDoc from "./documentation/ImageDoc/ImageDoc";
+import CardDoc from "./documentation/CardDoc/CardDoc";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/components/avatar" element={<AvatarDoc />} />
         <Route path="/components/alert" element={<AlertDoc />} />
         <Route path="/components/badge" element={<BadgeDoc />} />
+        <Route path="/components/card" element={<CardDoc />} />
         <Route path="/components/button" element={<ButtonDoc />} />
         <Route path="/components/headings" element={<HeadingsDoc />} />
         <Route path="/components/text" element={<TextDoc />} />
