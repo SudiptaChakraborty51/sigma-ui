@@ -210,3 +210,80 @@ export const CardWithTextOverlay = ({ props, overlayText }) => {
   );
 };
 
+export const TextOnlyCard = ({ props }) => {
+  const {
+    title,
+    price,
+    originalPrice,
+    discount,
+    primaryButtonText,
+    secondaryButtonText,
+  } = props;
+  return (
+    <div className="card">
+      <div className="card-content">
+        <h3>{title}</h3>
+        <div className="price">
+          <span>₹ {price}</span>
+          <span>₹ {originalPrice}</span>
+        </div>
+        <p className="discount">{discount} off</p>
+      </div>
+      <div className="card-buttons">
+        {primaryButtonText && (
+          <PrimaryButton
+            text={primaryButtonText}
+            bgColor="var(--primary-dark)"
+          />
+        )}
+        {secondaryButtonText && (
+          <OutlineButton
+            text={secondaryButtonText}
+            color="var(--primary-dark)"
+          />
+        )}
+      </div>
+    </div>
+  );
+};
+
+export const CardWithShadow = ({ props }) => {
+  const {
+    title,
+    imgSrc,
+    price,
+    originalPrice,
+    discount,
+    primaryButtonText,
+    secondaryButtonText,
+  } = props;
+  return (
+    <div className="card card-with-shadow">
+      <div>
+        <img src={imgSrc} alt={title} className="card-img" />
+      </div>
+      <div className="card-content">
+        <h3>{title}</h3>
+        <div className="price">
+          <span>₹ {price}</span>
+          <span>₹ {originalPrice}</span>
+        </div>
+        <p className="discount">{discount} off</p>
+      </div>
+      <div className="card-buttons">
+        {primaryButtonText && (
+          <PrimaryButton
+            text={primaryButtonText}
+            bgColor="var(--primary-dark)"
+          />
+        )}
+        {secondaryButtonText && (
+          <OutlineButton
+            text={secondaryButtonText}
+            color="var(--primary-dark)"
+          />
+        )}
+      </div>
+    </div>
+  );
+};

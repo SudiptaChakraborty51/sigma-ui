@@ -4,14 +4,25 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 import {
   CardWithBadge,
   CardWithDismiss,
+  CardWithShadow,
   CardWithTextOverlay,
   HorizontalCard,
+  TextOnlyCard,
   VerticalCard,
 } from "../../components/Card/Card";
 
 const props = {
   imgSrc:
     "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/pfr4G6eKc-M.A.C-Mini-Studio-Fix-Fluid-Foundation-SPF-15-NC15-(15ml).jpeg?dpr=2",
+  title: "M.A.C Studio Fix Fluid SPF 15 Mini - NC15",
+  price: "1715",
+  originalPrice: "1900",
+  discount: "15%",
+  primaryButtonText: "Add To Cart",
+  secondaryButtonText: "Add To Wishlist",
+};
+
+const textOnlyProps = {
   title: "M.A.C Studio Fix Fluid SPF 15 Mini - NC15",
   price: "1715",
   originalPrice: "1900",
@@ -123,6 +134,42 @@ const CardDoc = () => {
               overflow: "hidden",
             }}
             title="card-with-text-overlay"
+            sandbox="allow-scripts allow-same-origin"
+          ></iframe>
+        </code>
+        <h2>Card With Text Only</h2>
+        <div className="card-showcase">
+          <TextOnlyCard props={textOnlyProps} />
+        </div>
+        <code>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=867&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=6px&ln=false&fl=1&fm=Source+Code+Pro&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520textOnlyProps%2520%253D%2520%257B%250A%2520%2520title%253A%2520%2522M.A.C%2520Studio%2520Fix%2520Fluid%2520SPF%252015%2520Mini%2520-%2520NC15%2522%252C%250A%2520%2520price%253A%2520%25221715%2522%252C%250A%2520%2520originalPrice%253A%2520%25221900%2522%252C%250A%2520%2520discount%253A%2520%252215%2525%2522%252C%250A%2520%2520primaryButtonText%253A%2520%2522Add%2520To%2520Cart%2522%252C%250A%2520%2520secondaryButtonText%253A%2520%2522Add%2520To%2520Wishlist%2522%252C%250A%257D%253B%250A%253CTextOnlyCard%2520props%253D%257BtextOnlyProps%257D%2520%252F%253E"
+            style={{
+              width: "867px",
+              height: "270px",
+              border: 0,
+              transform: "scale(1)",
+              overflow: "hidden",
+            }}
+            title="card-with-text-only"
+            sandbox="allow-scripts allow-same-origin"
+          ></iframe>
+        </code>
+        <h2>Card With Shadow</h2>
+        <div className="card-showcase">
+          <CardWithShadow props={props} />
+        </div>
+        <code>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=867&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=6px&ph=6px&ln=false&fl=1&fm=Source+Code+Pro&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520props%2520%253D%2520%257B%250A%2520%2520imgSrc%253A%250A%2520%2520%2520%2520%2522https%253A%252F%252Fcdn.tirabeauty.com%252Fv2%252Fbillowing-snowflake-434234%252Ftira-p%252Fwrkr%252Fproducts%252Fpictures%252Fitem%252Ffree%252Foriginal%252Fpfr4G6eKc-M.A.C-Mini-Studio-Fix-Fluid-Foundation-SPF-15-NC15-%2815ml%29.jpeg%253Fdpr%253D2%2522%252C%250A%2520%2520title%253A%2520%2522M.A.C%2520Studio%2520Fix%2520Fluid%2520SPF%252015%2520Mini%2520-%2520NC15%2522%252C%250A%2520%2520price%253A%2520%25221715%2522%252C%250A%2520%2520originalPrice%253A%2520%25221900%2522%252C%250A%2520%2520discount%253A%2520%252215%2525%2522%252C%250A%2520%2520primaryButtonText%253A%2520%2522Add%2520To%2520Cart%2522%252C%250A%2520%2520secondaryButtonText%253A%2520%2522Add%2520To%2520Wishlist%2522%252C%250A%257D%253B%250A%253CCardWithShadow%2520props%253D%257Bprops%257D%2520%252F%253E"
+            style={{
+              width: "867px",
+              height: "330px",
+              border: 0,
+              transform: "scale(1)",
+              overflow: "hidden",
+            }}
+            title="card-with-shadow"
             sandbox="allow-scripts allow-same-origin"
           ></iframe>
         </code>
