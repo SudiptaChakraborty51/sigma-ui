@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <ul>
-        <li>
+        {/* <li>
           <NavLink
             to="/installation"
             className="component-item"
@@ -21,7 +21,7 @@ const Sidebar = () => {
           >
             Installation
           </NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink
             to="/components/avatar"
@@ -83,7 +83,7 @@ const Sidebar = () => {
         </li>
         <li>
           <NavLink
-            to="/image"
+            to="/components/image"
             className="component-item"
             style={getActiveStyle}
           >
