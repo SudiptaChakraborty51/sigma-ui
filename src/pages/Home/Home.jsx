@@ -26,9 +26,9 @@ const Home = () => {
             <button onClick={() => navigate("/components")}>
               <span>Get Started</span>
             </button>
-            <button onClick={() => navigate("/installation")}>
+            {/* <button onClick={() => navigate("/installation")}>
               <span>Installation</span>
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
