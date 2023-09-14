@@ -1,7 +1,6 @@
 import React from "react";
 import "./ImageDoc.css";
 import Sidebar from "../../components/Sidebar/Sidebar";
-import Headings from "../../components/Headings/Headings";
 import { ResponsiveImage, RoundedImage } from "../../components/Image/Image";
 
 const ImageDoc = () => {
