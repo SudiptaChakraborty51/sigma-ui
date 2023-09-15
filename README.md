@@ -35,6 +35,11 @@ Sigma UI have many reusable components to make your UI clean.
   - Responsive Image
   - Round Image
 
+## Features
+
+- You can search for any component
+- Responsive
+
 ## Tech stack
 
 - ReactJS
