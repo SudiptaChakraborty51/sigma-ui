@@ -26,19 +26,43 @@
   --away-badge-color: #d6d616;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1124px) {
   iframe {
-    width: 85% !important;
+    width: 100% !important;
+    overflow: auto !important;
+  }
+
+  .badge-main iframe {
+    width: 95% !important;
+  }
+
+  .badge-showcase {
+    width: 90% !important;
   }
 
   .avatar-showcase,
   .alert-showcase,
-  .badge-showcase,
   .button-showcase,
   .card-showcase,
   .headings-showcase,
   .text-showcase,
   .image-showcase {
-    width: 85% !important;
+    width: 100% !important;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .avatar-main,
+  .alert-main,
+  .badge-main,
+  .button-main,
+  .card-main,
+  .headings-main,
+  .text-main,
+  .image-main {
+    gap: 0rem !important;
+    margin: 0 2rem;
   }
 }
