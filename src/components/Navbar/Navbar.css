@@ -55,6 +55,40 @@
   color: var(--primary-dark);
 }
 
+.middle-nav {
+  width: 40%;
+}
+
+.middle-nav .searchbar {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle-nav .searchbar input {
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.middle-nav .searchbar button {
+  background-color: var(--primary-dark);
+  border: none;
+  padding: 0.5rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.middle-nav .searchbar button:hover {
+  opacity: 0.8;
+  transition: all 0.5s ease-in-out;
+}
+
 @media (max-width: 600px) {
   .left-nav h2 {
     display: none;
@@ -80,5 +114,11 @@
 
   .navbar .right-nav i {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .middle-nav {
+    display: none;
   }
 }
