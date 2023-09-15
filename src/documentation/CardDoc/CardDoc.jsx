@@ -48,6 +48,41 @@ const CardDoc = () => {
           <span>TextOnlyCard</span> and <span>CardWithShadow</span>.
         </p>
         <h2>Vertical Card</h2>
+        <p>
+          <span>Vertical Card</span> refers to information that is oriented
+          vertically. To use <span>VerticalCard</span> component, you have to
+          add some props such as, <span>imgSrc</span>, <span>title</span>,{" "}
+          <span>price</span>, <span>originalPrice</span>, <span>discount</span>,{" "}
+          <span>primaryButtonText</span> and <span>secondaryButtonText</span>.{" "}
+        </p>
+        <div>
+          <h3>Props Description</h3>
+          <p>
+            <strong>imgSrc: </strong>You have to provide the URL for the image.
+          </p>
+          <p>
+            <strong>title: </strong>It contains the title of the card.
+          </p>
+          <p>
+            <strong>price: </strong>You can give price for product card.
+          </p>
+          <p>
+            <strong>originalPrice: </strong>You can give original price of the
+            product.
+          </p>
+          <p>
+            <strong>discount: </strong>You can give the discount provided for
+            the product.
+          </p>
+          <p>
+            <strong>primaryButtonText: </strong>It will contain the text for{" "}
+            <span>PrimaryButton</span> component.
+          </p>
+          <p>
+            <strong>secondaryButtonText: </strong>It will contain the text for{" "}
+            <span>OutlineButton</span> component.
+          </p>
+        </div>
         <div className="card-showcase">
           <VerticalCard props={props} />
         </div>
@@ -66,6 +101,19 @@ const CardDoc = () => {
           ></iframe>
         </code>
         <h2>Horizontal Card</h2>
+        <p>
+          <span>Horizontal Card</span> is a rectangular design element that
+          typically displays its content from left to right, often used for
+          presenting information, images, or other data in a horizontal layout.
+          To use <span>HorizontalCard</span> component, you have to add some
+          props such as, <span>imgSrc</span>, <span>title</span>,{" "}
+          <span>price</span>, <span>originalPrice</span>, <span>discount</span>,{" "}
+          <span>primaryButtonText</span> and <span>secondaryButtonText</span>.{" "}
+        </p>
+        <div>
+          <h3>Props Description</h3>
+          <p>Same as Vertical Card.</p>
+        </div>
         <div className="card-showcase">
           <HorizontalCard props={props} />
         </div>
@@ -84,6 +132,24 @@ const CardDoc = () => {
           ></iframe>
         </code>
         <h2>Card With Badge</h2>
+        <p>
+          A <span>card with a badge</span> typically refers to a graphical
+          element on a card-like structure, often used to provide additional
+          context, status information, or visual cues related to the content
+          within the card. To use <span>CardWithBadge</span> component, you have
+          to add some props such as, <span>imgSrc</span>, <span>title</span>,{" "}
+          <span>price</span>, <span>originalPrice</span>, <span>discount</span>,{" "}
+          <span>primaryButtonText</span>, <span>secondaryButtonText</span> and{" "}
+          <span>badgeText</span>.{" "}
+        </p>
+        <div>
+          <h3>Props Description</h3>
+          <p>Rest of the props are same as Vertical Card.</p>
+          <p>
+            <strong>badgeText: </strong>It contains the text of the badge, which
+            you want to convey.
+          </p>
+        </div>
         <div className="card-showcase">
           <CardWithBadge props={props} badgeText="Bestseller" />
         </div>
@@ -102,6 +168,19 @@ const CardDoc = () => {
           ></iframe>
         </code>
         <h2>Card With Dismiss</h2>
+        <p>
+          A <span>card with a dismiss</span> feature typically refers to a user
+          interface element within a card-based layout that allows the user to
+          close or remove the card from view. To use{" "}
+          <span>CardWithDismiss</span> component, you have to add some props
+          such as, <span>imgSrc</span>, <span>title</span>, <span>price</span>,{" "}
+          <span>originalPrice</span>, <span>discount</span>,{" "}
+          <span>primaryButtonText</span> and <span>secondaryButtonText</span>.{" "}
+        </p>
+        <div>
+          <h3>Props Description</h3>
+          <p>Same as Vertical Card.</p>
+        </div>
         <div className="card-showcase">
           <CardWithDismiss props={props} />
         </div>
@@ -120,6 +199,26 @@ const CardDoc = () => {
           ></iframe>
         </code>
         <h2>Card With Text Overlay</h2>
+        <p>
+          A <span>card with a text overlay</span> typically refers to a user
+          interface element where text is superimposed or overlaid on an image
+          or another visual element within a card-like structure. This technique
+          is often used to provide additional information, captions, or
+          descriptions related to the content displayed in the card. To use{" "}
+          <span>CardWithTextOverlay</span> component, you have to add some props
+          such as, <span>imgSrc</span>, <span>title</span>, <span>price</span>,{" "}
+          <span>originalPrice</span>, <span>discount</span>,{" "}
+          <span>primaryButtonText</span>, <span>secondaryButtonText</span> and{" "}
+          <span>overlayText</span>.{" "}
+        </p>
+        <div>
+          <h3>Props Description</h3>
+          <p>Rest of the props are same as Vertical Card.</p>
+          <p>
+            <strong>overlayText: </strong>It contains the text of the overlay,
+            which you want to convey.
+          </p>
+        </div>
         <div className="card-showcase">
           <CardWithTextOverlay props={props} overlayText="Out of stock" />
         </div>
@@ -138,6 +237,21 @@ const CardDoc = () => {
           ></iframe>
         </code>
         <h2>Card With Text Only</h2>
+        <p>
+          A <span>card with text-only</span> content is a user interface element
+          designed to present information or content primarily in a text format
+          within a card-like structure. To use <span>TextOnlyCard</span>{" "}
+          component, you have to add some props such as, <span>title</span>,{" "}
+          <span>price</span>, <span>originalPrice</span>, <span>discount</span>,{" "}
+          <span>primaryButtonText</span> and <span>secondaryButtonText</span>.{" "}
+        </p>
+        <div>
+          <h3>Props Description</h3>
+          <p>
+            Except <span>imgSrc</span>, rest of the props are same as Vertical
+            Card.
+          </p>
+        </div>
         <div className="card-showcase">
           <TextOnlyCard props={textOnlyProps} />
         </div>
@@ -156,6 +270,21 @@ const CardDoc = () => {
           ></iframe>
         </code>
         <h2>Card With Shadow</h2>
+        <p>
+          A <span>card with a shadow</span>, often referred to as a box-shadow,
+          is a design element commonly used in user interfaces to create a
+          visual sense of elevation and depth. The shadow adds a 3D-like effect
+          to the card, making it appear as if it's slightly raised above the
+          background surface. To use <span>CardWithShadow</span> component, you
+          have to add some props such as, <span>imgSrc</span>,{" "}
+          <span>title</span>, <span>price</span>, <span>originalPrice</span>,{" "}
+          <span>discount</span>, <span>primaryButtonText</span> and{" "}
+          <span>secondaryButtonText</span>.{" "}
+        </p>
+        <div>
+          <h3>Props Description</h3>
+          <p>Same as Vertical Card.</p>
+        </div>
         <div className="card-showcase">
           <CardWithShadow props={props} />
         </div>
