@@ -25,3 +25,20 @@
   --online-badge-color: green;
   --away-badge-color: #d6d616;
 }
+
+@media (max-width: 900px) {
+  iframe {
+    width: 85% !important;
+  }
+
+  .avatar-showcase,
+  .alert-showcase,
+  .badge-showcase,
+  .button-showcase,
+  .card-showcase,
+  .headings-showcase,
+  .text-showcase,
+  .image-showcase {
+    width: 85% !important;
+  }
+}
